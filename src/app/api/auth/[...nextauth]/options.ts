@@ -21,7 +21,7 @@ export type CustomUser = {
 
 export const authOptions: AuthOptions = {
   pages: {
-    signIn: "/",
+    signIn: "/admin/signup",
   },
 
   callbacks: {
